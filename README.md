@@ -21,5 +21,5 @@ npm run dev
 
 - `npm run dev`: arranca el servidor de desarrollo estático incluido.
 - `npm run build`: genera la versión de producción.
-- `npm run preview`: sirve la build localmente.
+- `npm run preview`: genera la build y la sirve localmente.
 - `npm test`: valida que la demo contiene los elementos RGPD y SaaS principales.

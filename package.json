@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "node scripts/dev-server.mjs",
     "build": "node scripts/build.mjs",
-    "preview": "node scripts/dev-server.mjs dist",
+    "preview": "node scripts/build.mjs && node scripts/dev-server.mjs dist",
     "test": "node scripts/validate-content.mjs"
   },
   "dependencies": {},
